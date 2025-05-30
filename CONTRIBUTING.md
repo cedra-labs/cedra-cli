@@ -3,7 +3,7 @@
 Clone this repo:
 
 ```
-git clone git@github.com:aptos-labs/aptos-cli.git
+git clone git@github.com:cedra-labs/cedra-cli.git
 ```
 
 Install dependencies:

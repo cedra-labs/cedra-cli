@@ -1,3 +1,3 @@
-export const PNAME = "aptos-cli";
+export const PNAME = "cedra-cli";
 export const GH_CLI_DOWNLOAD_URL =
-  "https://github.com/aptos-labs/aptos-core/releases/download";
+  "https://github.com/cedra-labs/cedra-core/releases/download";

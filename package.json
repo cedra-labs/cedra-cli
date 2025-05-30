@@ -1,28 +1,28 @@
 {
-  "name": "@aptos-labs/aptos-cli",
+  "name": "@cedra-labs/cedra-cli",
   "version": "1.1.0",
-  "description": "Aptos CLI available from npmjs",
+  "description": "Cedra CLI available from npmjs",
   "bin": {
-    "aptos": "./dist/aptos.js"
+    "cedra": "./dist/cedra.js"
   },
   "type": "module",
-  "author": "aptoslabs.com",
+  "author": "cedralabs.com",
   "keywords": [
-    "aptos node cli",
-    "aptos"
+    "cedra node cli",
+    "cedra"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/aptos-labs/aptos-cli"
+    "url": "https://github.com/cedra-labs/cedra-cli"
   },
   "bugs": {
-    "url": "https://github.com/aptos-labs/aptos-cli/issues"
+    "url": "https://github.com/cedra-labs/cedra-cli/issues"
   },
   "license": "Apache-2.0",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
-    "dev": "npm run build && node ./dist/aptos.js"
+    "dev": "npm run build && node ./dist/cedra.js"
   },
   "files": [
     "bin",

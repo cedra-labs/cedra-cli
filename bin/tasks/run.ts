@@ -8,7 +8,7 @@ export const runCLI = async (args: string[] = []) => {
   const path = getLocalBinPath();
   if (!existsSync(path)) {
     console.log(
-      "Aptos CLI not installed, run `npx aptos --install` to install"
+      "cedra CLI not installed, run `npx cedra --install` to install"
     );
     return;
   }

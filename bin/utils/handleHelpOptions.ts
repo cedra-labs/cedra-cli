@@ -2,8 +2,8 @@ import { spawnSync } from "child_process";
 import { Command } from "commander";
 
 /**
- * Handle the `--help` option for the Aptos CLI. This function is used to combine
- * the Aptos CLI help output with the Commander help output.
+ * Handle the `--help` option for the cedra CLI. This function is used to combine
+ * the cedra CLI help output with the Commander help output.
  * @param program - The Commander program instance.
  * @param unknownOptions - The unknown options passed to the CLI.
  * @returns void
@@ -12,8 +12,8 @@ export const handleHelpOptions = (
   program: Command,
   unknownOptions: string[]
 ) => {
-  // Capture the Aptos CLI help output
-  const cliHelp = spawnSync(`aptos`, unknownOptions, {
+  // Capture the cedra CLI help output
+  const cliHelp = spawnSync(`cedra`, unknownOptions, {
     stdio: "pipe",
     encoding: "utf-8",
   });

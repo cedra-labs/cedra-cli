@@ -15,7 +15,7 @@ import { parseCommandOptions } from "./utils/parseCommandOptions.js";
 import { runCLI } from "./tasks/run.js";
 
 program
-  .name("aptos")
+  .name("cedra")
   .helpOption(false)
   .option("-i, --install", "install the latest version of the CLI")
   .option("-u, --update", "update the CLI to the latest version")

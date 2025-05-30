@@ -1,5 +1,5 @@
 import { dirname } from "path";
-import { executableIsAvailable } from "./aptosExecutableIsAvailable.js";
+import { executableIsAvailable } from "./cedraExecutableIsAvailable.js";
 import { getCliPathBrew } from "./brewOperations.js";
 import { PNAME } from "./consts.js";
 import { getOS } from "./getUserOs.js";

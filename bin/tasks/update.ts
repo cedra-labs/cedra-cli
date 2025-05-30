@@ -12,14 +12,14 @@ export const updateCli = async () => {
 
   if (!existsSync(path)) {
     console.log(
-      "Aptos CLI not installed, run `npx aptos --install` to install"
+      "cedra CLI not installed, run `npx cedra --install` to install"
     );
     return;
   }
 
   if (getOS() === "MacOS") {
-    // Upgrade aptos via brew.
-    return execSync("brew upgrade aptos");
+    // Upgrade cedra via brew.
+    return execSync("brew upgrade cedra");
   } else {
     const latestVersion = await getLatestVersionGh();
     // Get the current version of the CLI.

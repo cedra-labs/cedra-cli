@@ -8,7 +8,7 @@ export const getLatestVersionGh = async () => {
   const prefix = `${PNAME}-v`;
   const response = await (
     await fetch(
-      "https://api.github.com/repos/aptos-labs/aptos-core/releases?per_page=100"
+      "https://api.github.com/repos/cedra-labs/cedra-core/releases?per_page=100"
     )
   ).json();
   for (const release of response) {
@@ -16,5 +16,5 @@ export const getLatestVersionGh = async () => {
       return release.tag_name.replace(`${prefix}`, "");
     }
   }
-  throw "Could not determine latest version of Aptos CLI";
+  throw "Could not determine latest version of cedra CLI";
 };

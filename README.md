@@ -1,45 +1,45 @@
-# Aptos CLI
+# cedra CLI
 
-The `@aptos-labs/aptos-cli` package allows you to use the Aptos CLI from inside a `Nodejs` project.
+The `@cedra-labs/cedra-cli` package allows you to use the cedra CLI from inside a `Nodejs` project.
 
 ## Download
 
-To install the Aptos CLI, you need to have Node.js and npm installed on your system. Then, you can install it using:
+To install the cedra CLI, you need to have Node.js and npm installed on your system. Then, you can install it using:
 
 ```bash
-npm install @aptos-labs/aptos-cli
+npm install @cedra-labs/cedra-cli
 ```
 
-That command will download the Aptos CLI and create a Node bin file, making it available to use in a Node environment.
+That command will download the cedra CLI and create a Node bin file, making it available to use in a Node environment.
 
 ## Install
 
-Once you have the package installed and the Node bin file, you can run the following command, in your project environment, to install the Aptos CLI in your project:
+Once you have the package installed and the Node bin file, you can run the following command, in your project environment, to install the cedra CLI in your project:
 
 ```bash
-npx aptos --install
+npx cedra --install
 ```
 
-Alternatively, you can simply run the cli using the `npx aptos` command. That will install the Aptos CLI in your project if it's not already installed.
+Alternatively, you can simply run the cli using the `npx cedra` command. That will install the cedra CLI in your project if it's not already installed.
 
 ```bash
-npx aptos
+npx cedra
 ```
 
 ## Usage
 
-To use the Aptos CLI, in your project environment, run the `npx aptos` command, to see the available commands.
+To use the cedra CLI, in your project environment, run the `npx cedra` command, to see the available commands.
 
 ```bash
-npx aptos
+npx cedra
 ```
 
-## Updating the Aptos CLI
+## Updating the cedra CLI
 
-To update the Aptos CLI, you can run the following command within your project environment:
+To update the cedra CLI, you can run the following command within your project environment:
 
 ```bash
-npx aptos --update
+npx cedra --update
 ```
 
 ## Development
