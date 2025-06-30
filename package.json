@@ -1,6 +1,6 @@
 {
   "name": "@cedra-labs/cedra-cli",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Cedra CLI available from npmjs",
   "bin": {
     "cedra": "./dist/cedra.js"
