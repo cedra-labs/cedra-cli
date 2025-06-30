@@ -6,7 +6,7 @@ import { getOS } from "./getUserOs.js";
 import { fileURLToPath } from "url";
 
 export const getLocalBinPath = () => {
-  let path;
+  let path: string;
   const os = getOS();
   if (os === "MacOS") {
     // Confirm brew is installed.

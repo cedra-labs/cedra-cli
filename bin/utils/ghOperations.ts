@@ -8,7 +8,7 @@ export const getLatestVersionGh = async () => {
   const prefix = `${PNAME}-v`;
   const response = await (
     await fetch(
-      "https://api.github.com/repos/cedra-labs/cedra/releases?per_page=100"
+      "https://api.github.com/repos/cedra-labs/cedra-network/releases?per_page=100",
     )
   ).json();
   for (const release of response) {
